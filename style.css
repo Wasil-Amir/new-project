@@ -1,0 +1,1042 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cover{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image:url("./img/banner/b1.jpg") ;
+    background-size: 100% 100%;
+    overflow: hidden;
+    
+}
+
+.banner{
+    height: 10%;
+    width: 100vw;
+    background-image:url("./img/background/overlay.png");
+    position: absolute;
+
+}
+
+.banner-text{
+    height: 10%;
+    width: 10vw;
+    /* background: black; */
+    font-size: 1.3vw;
+    display: inline-block;
+    box-sizing: border-box;
+    /* position: absolute; */
+    color: white;
+    text-align: center;
+    top: 20%;
+    padding: 7px;
+    position: absolute;
+    
+
+}
+
+.banner-text:hover{
+    color: red;
+    font-size: 1.5vw;
+}
+
+
+
+.t1{
+    background-image: url("./img/logo/logo.png");
+    background-size: 100% 100%;
+    height: 60%;
+    width: 14vw;
+    left: 10%;
+}
+
+.t2{
+    height: 60%;
+    width: 10vw;
+    left: 40%;
+}
+
+
+.t3{
+    height: 60%;
+    width: 13vw;
+    left: 49%;
+}
+
+.t4{
+    height: 60%;
+    width: 8vw;
+    left: 60%;
+}
+
+.t5{
+    height: 60%;
+    width: 8vw;
+    left: 68%;
+}
+
+
+.t6{
+    height: 60%;
+    width: 8vw;
+    left: 75%;
+
+}
+
+
+.t7{
+    height: 60%;
+    width: 8vw;
+    left: 82%;
+
+}
+
+
+.t8{
+    height: 60%;
+    width: 8vw;
+    left: 90%;
+
+}
+
+.gif{
+    height: 60%;
+    width: 20vw;
+    background-image: url("./img/gif/Kgpn.gif");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    animation: guitar 7s infinite;
+
+}
+
+@keyframes guitar {
+    50%{
+        /* transform: translateX(-20px); */
+        transform: scale(1.1);
+
+    }
+}
+
+.slide-icon{
+    height: 15%;
+    width: 7vw;
+    background-image:url("./img/album/disk.png") ;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 35%;
+    left: 20%;
+    animation: icon 3s infinite linear;
+}
+
+@keyframes icon{
+
+    100%{
+        /* transform: translateX(-700px); */
+        transform: rotate(-360deg);
+    }
+
+}
+
+
+.slide-text{
+    height: 5%;
+    width: 35vw;
+    /* background: red; */
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: white;
+    font-size: 4vw;
+    animation: text-1 3s alternate-reverse;
+}
+
+@keyframes text-1{
+
+    100%{
+        transform: translateX(-720px);
+    }
+
+}
+
+
+.slide-text-2{
+    height: 12%;
+    width: 35vw;
+    /* background: red; */
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: white;
+    font-size: 2vw;
+    animation: text-2 3s alternate-reverse;
+}
+
+@keyframes text-2{
+
+    100%{
+        transform: translateX(420px);
+    }
+
+}
+
+.butn{
+    height: 10%;
+    width: 15vw;
+    background-image:linear-gradient(to right,black,red) ;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    animation: move 3s alternate-reverse;
+    outline: none;
+
+}
+
+/* second page */
+
+.cover-2{
+    height: 100vh;
+    width: 100vw;
+    background-image:url("./img/banner/b2.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+
+
+
+.slide-icon-2{
+    height: 15%;
+    width: 7vw;
+    background-image:url("./img/headphone-transparent-animated-4.gif") ;
+    position: absolute;
+    background-size: 100% 100%;
+    top: 35%;
+    left: 20%;
+}
+
+
+.slide-text-3{
+    height: 5%;
+    width: 35vw;
+    /* background: red; */
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    color: white;
+    font-size: 4vw;
+    animation: text-3 3s alternate-reverse;
+}
+
+@keyframes text-3{
+
+    100%{
+        transform: translateX(-720px);
+    }
+
+}
+
+
+.slide-text-4{
+    height: 12%;
+    width: 35vw;
+    /* background: red; */
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    color: white;
+    font-size: 2vw;
+    animation: text-4 3s alternate-reverse;
+}
+
+@keyframes text-4{
+
+    100%{
+        transform: translateX(420px);
+    }
+
+}
+
+.butn-2{
+    height: 10vh;
+    width: 15vw;
+    background-image:linear-gradient(to right,black,red) ;
+    border-radius: 100px;
+    color: white;
+    text-align: center;
+    font-size: 1.5vw;
+    top: 60%;
+    left: 30%;
+    position: absolute;
+    /* animation: move 3s alternate-reverse; */
+    outline: none;
+
+}
+
+/* next page */
+
+.latest-album{
+    height:170vh;
+    width: 100vw;
+    position: relative;
+    background: white;
+
+}
+
+.latest-album-text{
+    height: 12%;
+    width: 40vw;
+    /* background: red; */
+    color: black;
+    text-align: center;
+    font-size: 5vw;
+    position: absolute;
+    left: 30%;
+    top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+
+.latest-album-text-2{
+    height: 5%;
+    width: 50vw;
+    /* background: blue; */
+    color: black;
+    font-size: 1.5vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    position: absolute;
+    left: 29%;
+    top: 13%;
+}
+
+span{
+    color: red;
+}
+
+
+
+
+.album-profile{
+    height: 40%;
+    width: 30vw;
+    background-image: url("./img/album/1.jpg");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 24%;
+    left: 10%;
+}
+
+.album-profile-2{
+    height: 55%;
+    width: 20vw;
+    background-image: url("./img/album/disk.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    opacity: 0.4;
+    animation: profile 5s infinite linear;
+
+}
+
+@keyframes profile{
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+/* music album */
+
+
+.album{
+    height: 6%;
+    width: 40vw;
+    position: absolute;
+    left: 50%;
+    top: 24%;
+}
+
+.album-1{
+    height: 100%;
+    width: 40vw;
+    /* background-image: url("./img/background/overlay.png"); */
+    background: silver;
+    border: 1px solid black;
+    background-size: 100% 100%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.album-1:hover{
+    color: white;
+    background: red;
+}
+
+.a1{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 10%;
+}
+
+
+.a2{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top: 45%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a3{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    top: 10%;
+
+}
+
+
+.a4{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 110%;
+}
+
+.a5{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:150%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a6{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 10%; */
+}
+
+.a7{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 210%;
+}
+
+.a8{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:250%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a9{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 10%; */
+}
+
+.a10{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 330%;
+}
+
+.a11{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:370%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a12{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 10%; */
+}
+
+.a13{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 430%;
+}
+
+.a14{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:470%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a15{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 50%; */
+}
+
+.a16{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 530%;
+}
+
+.a17{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:570%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a18{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 50%; */
+}
+
+.a19{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 630%;
+}
+
+.a20{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:670%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+.a21{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 50%; */
+}
+
+.a22{
+    height: 25%;
+    width: 15vw;
+    /* background: red; */
+    position: absolute;
+    text-align: center;
+    font-size: 1.5vw;
+    left: 5%;
+    top: 740%;
+}
+
+.a23{
+    height: 40%;
+    width: 20vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top:780%;
+    text-align: center;
+    left: 5%;
+    padding: 5px;
+}
+
+
+
+.a24{
+    height: 40%;
+    width: 2vw;
+    background-image: url("./img/unnamed.png");
+    background-size: 100% 100%;
+    position: absolute;
+    left: 90%;
+    /* top: 50%; */
+}
+
+
+.simple-text{
+    height: 30%;
+    width: 30vw;
+    /* background: rebeccapurple; */
+    position: absolute;
+    top: 70%;
+    left: 10%;
+}
+
+.album-text{
+    height: 10%;
+    width: 20vw;
+    /* background: gold; */
+    box-sizing: border-box;
+    display: inline-block;
+    position: absolute  ;
+
+}
+
+.s1{
+    top: 10%;
+    left: 12%;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.s2{
+    top: 25%;
+    left: 27%;
+    width: 10vw;
+    font-size: 1.5vw;
+    text-align: center;
+    color: silver;
+
+}
+
+.s3{
+    top: 40%;
+    width: 30vw;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.s4{
+    top: 60%;
+    left: 15%;
+    width: 20vw;
+    height: 15%;
+    font-size: 2vw;
+    color: white;
+    background: red;
+    outline: none;
+    border-radius:20px ;
+}
+
+
+/* page */
+
+.music-art{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./img/promo/p1.jpg");
+    position: relative;
+}
+
+.Music{
+    height: 20%;
+    width: 60vw;
+    position: absolute;
+    /* background: darkgoldenrod; */
+    font-size: 5vw;
+    color: white;
+    left: 34%;
+    top: 15%;
+    cursor: pointer;
+}
+
+.art{
+    height: 20%;
+    width: 65vw;
+    /* background: yellow; */
+    color: white;
+    font-size: 2vw;
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.music-icon{
+    height: 15%;
+    width: 10vw;
+    background-image: url("./img/headphones-illustration_39168-49.jpg");
+    background-size: 100% 100%;
+    left: 43%;
+    top: 55%;
+    position: absolute;
+    animation: viberate 2s infinite linear;
+}
+
+@keyframes viberate{
+    100%{
+        transform: scale(.2)
+    }
+
+    90%{transform: scale(1.2);}
+}
+
+/* next one */
+
+.featured-album{
+    height: 250vh;
+    width: 100vw;
+    background:white;
+    position: relative;
+    border: 2px solid black;
+}
+
+.featured-album-text{
+    height: 1%;
+    width: 30vw;
+    /* background: yellow; */
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    border: 2px solid red;
+    left: 34%;
+    top: 10%;
+    text-align: center;
+}
+
+/* pages */
+
+
+.featured-album-pages{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+
+.featured-album-pages-1{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-1:hover{
+    opacity: 1;
+    transition: 1.3
+}
+
+
+.featured-album-text-1{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.featured-album-pages-2{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.featured-album-pages-3{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-3:hover{
+    opacity: 1;
+    transition: 1.3;
+}
+
+
+.featured-album-text-2{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.featured-album-pages-4{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 30%;
+    left: 68%;
+}
+
+
+
+
+.featured-album-pages-5{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-5:hover{
+    opacity: 1;
+    transition: 1.3;
+}
+
+
+.featured-album-text-3{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.featured-album-pages-6{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 98%;
+    left: 2%;
+}
+
+.featured-album-pages-7{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-7:hover{
+    opacity: 1;
+    transition: 1.3s;
+}
+
+
+.featured-album-text-4{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.featured-album-pages-8{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 98%;
+    left: 35%;
+}
+
+.featured-album-pages-9{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-9:hover{
+    opacity: 1;
+    transition: 1.3s;
+}
+
+
+.featured-album-text-5{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.featured-album-pages-10{
+    height: 60%;
+    width: 30vw;
+    background-image:linear-gradient(to bottom,black,grey) ;
+    position: absolute;
+    top: 98%;
+    left: 68%;
+}
+
+.featured-album-pages-11{
+    height: 80%;
+    width: 20vw;
+    background: red;
+    color: white;
+    border: 5px solid white;
+    font-size: 2vw;
+    position: absolute;
+    left: 16%;
+    text-align: center;
+    top: 10%;
+    opacity: 0;
+}
+
+.featured-album-pages-11:hover{
+    opacity: 1;
+    transition: 1.3s;
+}
+
+
+.featured-album-text-6{
+    height: 20%;
+    width: 10vw;
+    /* background: yellow; */
+    font-size: 1.7vw;
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wasil{
+    height: 100vh;
+    width: 100vw;
+    background: red;
+}
